@@ -9,7 +9,7 @@ export default function Header() {
             <img src={logo} alt="logo" className="logo-navbar" />
           </a>
 
-          <div className="navbar-nav flex-row gap-4 fw-semibold">
+          <div className="navbar-nav flex-row gap-4 fw-semibold fs-5">
             <a className="nav-link " href="#">
               Characters
             </a>
