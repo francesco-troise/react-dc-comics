@@ -1,7 +1,31 @@
+:root {
+  --Primary-color: rgb(2, 130, 249);
+}
+
 header .nav-link {
   color: black;
 }
 
 header .nav-link:hover {
-  color: rgb(2, 130, 249);
+  color: var(--Primary-color);
+}
+
+.BannerMain {
+  background-color: var(--Primary-color);
+}
+
+.ImgBannerMain {
+  width: 18.5%;
+}
+
+.SpanBannerMain {
+  padding-left: 0.75rem;
+}
+
+#ImgVisa {
+  width: 13%;
+}
+
+#ImgLocator {
+  width: 13%;
 }
