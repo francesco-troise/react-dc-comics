@@ -54,3 +54,18 @@ header .nav-link:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.SocialFooter {
+  background-color: rgba(48, 48, 48);
+}
+
+.SocialFooter .btn {
+  color: white;
+  border: 2px solid var(--Primary-color);
+  border-radius: 0%;
+}
+
+.right-footer a {
+  color: var(--Primary-color);
+  text-decoration: none;
+}
