@@ -1,0 +1,7 @@
+header .nav-link {
+  color: black;
+}
+
+header .nav-link:hover {
+  color: rgb(2, 130, 249);
+}
