@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Main from "./components/Main";
 import BannerMain from "./components/BannerMain";
+import FooterHero from "./components/FooterHero";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Main />
       <BannerMain />
+      <FooterHero />
     </>
   );
 }

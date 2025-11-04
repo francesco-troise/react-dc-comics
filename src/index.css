@@ -15,7 +15,7 @@ header .nav-link:hover {
 }
 
 .ImgBannerMain {
-  width: 18.5%;
+  width: 20.5%;
 }
 
 .SpanBannerMain {
@@ -28,4 +28,29 @@ header .nav-link:hover {
 
 #ImgLocator {
   width: 13%;
+}
+
+.row {
+  max-width: 50%;
+  position: relative;
+}
+
+.row .col-4:last-child {
+  position: absolute;
+  top: 50%;
+}
+
+.col-4 a {
+  text-decoration: none;
+  color: grey;
+}
+
+.col-4 a:hover {
+  color: white;
+}
+
+.HeroFooter {
+  background-image: url("./assets/img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
