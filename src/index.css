@@ -37,7 +37,7 @@ header .nav-link:hover {
 
 .row .col-4:last-child {
   position: absolute;
-  top: 50%;
+  top: 17.5rem;
 }
 
 .col-4 a {
@@ -55,6 +55,15 @@ header .nav-link:hover {
   background-size: cover;
 }
 
+.logo-hero {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 20.5rem;
+  bottom: 2rem;
+  background-image: url("./assets/img/dc-logo-bg.png");
+}
+
 .SocialFooter {
   background-color: rgba(48, 48, 48);
 }
@@ -68,4 +77,11 @@ header .nav-link:hover {
 .right-footer a {
   color: var(--Primary-color);
   text-decoration: none;
+}
+
+.cartoon-banner {
+  min-height: 20rem;
+  background-image: url("./assets/img/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

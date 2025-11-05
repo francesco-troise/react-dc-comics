@@ -1,5 +1,3 @@
-import BigLogo from "../assets/img/dc-logo-bg.png";
-
 export default function FooterHero() {
   return (
     <section className="HeroFooter ">
@@ -104,9 +102,7 @@ export default function FooterHero() {
             </ul>
           </div>
         </div>
-        <div className="logo">
-          <img src={BigLogo} />
-        </div>
+        <div className="logo-hero"></div>
       </div>
     </section>
   );
