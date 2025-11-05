@@ -1,6 +1,7 @@
 :root {
   --Primary-color: rgb(2, 130, 249);
 }
+/*VARIABILI*/
 
 header .nav-link {
   color: black;
@@ -9,6 +10,15 @@ header .nav-link {
 header .nav-link:hover {
   color: var(--Primary-color);
 }
+/*HEADER COMPONENT*/
+
+.cartoon-banner {
+  min-height: 20rem;
+  background-image: url("./assets/img/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*CARTOON-BANNER COMPONENT*/
 
 .BannerMain {
   background-color: var(--Primary-color);
@@ -29,8 +39,9 @@ header .nav-link:hover {
 #ImgLocator {
   width: 13%;
 }
+/*BANNER-MAIN COMPONENT*/
 
-.row {
+.wrap-row {
   max-width: 50%;
   position: relative;
 }
@@ -58,11 +69,12 @@ header .nav-link:hover {
 .logo-hero {
   width: 100%;
   background-repeat: no-repeat;
-  position: relative;
-  left: 20.5rem;
+  background-position-y: top;
+  background-position-x: right;
   bottom: 2rem;
   background-image: url("./assets/img/dc-logo-bg.png");
 }
+/*FOOTER-HERO COMPONENT*/
 
 .SocialFooter {
   background-color: rgba(48, 48, 48);
@@ -78,10 +90,51 @@ header .nav-link:hover {
   color: var(--Primary-color);
   text-decoration: none;
 }
+/*SOCIAL-FOOTER COMPONENT*/
 
-.cartoon-banner {
-  min-height: 20rem;
-  background-image: url("./assets/img/jumbotron.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+#row-comics {
+  max-width: 100%;
 }
+
+#comic-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card {
+  border: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.card-body {
+  background-color: transparent !important;
+  padding: 0.75rem 0;
+}
+
+.card-img-top {
+  border-radius: 0 !important;
+  border: none !important;
+}
+
+.card-title {
+  color: white !important;
+  text-align: start;
+}
+
+#badge {
+  background-color: var(--Primary-color);
+  border-radius: 0%;
+  position: relative;
+  bottom: 47.6rem;
+  padding: 0.45rem;
+}
+
+#btn {
+  background-color: var(--Primary-color);
+  color: white;
+  border-radius: 0;
+}
+/*MAIN COMPONENT*/
