@@ -184,10 +184,65 @@ function App() {
       writers: ["Joëlle Jones"],
     },
   ];
-  //Array necessario ai fini dell esercizio
+  //Array dei fumetti necessario ai fini dell esercizio
+
+  const array_link_header = [
+    {
+      id: 1,
+      href: "#",
+      link_name: "Characters",
+    },
+    {
+      id: 2,
+      href: "#",
+      link_name: "Comic",
+    },
+    {
+      id: 3,
+      href: "#",
+      link_name: "Movies",
+    },
+    {
+      id: 4,
+      href: "#",
+      link_name: "TV",
+    },
+    {
+      id: 5,
+      href: "#",
+      link_name: "Game",
+    },
+    {
+      id: 6,
+      href: "#",
+      link_name: "Collectibles",
+    },
+    {
+      id: 7,
+      href: "#",
+      link_name: "Video",
+    },
+    {
+      id: 8,
+      href: "#",
+      link_name: "Fans",
+    },
+    {
+      id: 9,
+      href: "#",
+      link_name: "News",
+    },
+    {
+      id: 10,
+      href: "#",
+      link_name: "Shop",
+    },
+  ];
+  ///Array dei link necessario ai fini dell esercizio
+
   return (
     <>
-      <Header />
+      <Header array_link_header={array_link_header} />
       <CartoonBanner />
       <Main comics={comics} />
       {/*Pass the array to "Main.jsx"*/}
