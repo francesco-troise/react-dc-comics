@@ -4,6 +4,7 @@ import BannerMain from "./components/BannerMain";
 import FooterHero from "./components/FooterHero";
 import FooterSocial from "./components/FooterSocial";
 import CartoonBanner from "./components/CartoonBanner";
+//Import of components
 
 function App() {
   const comics = [
@@ -183,16 +184,18 @@ function App() {
       writers: ["Joëlle Jones"],
     },
   ];
-
+  //Array necessario ai fini dell esercizio
   return (
     <>
       <Header />
       <CartoonBanner />
       <Main comics={comics} />
+      {/*Pass the array to "Main.jsx"*/}
       <BannerMain />
       <FooterHero />
       <FooterSocial />
     </>
+    //The -return of "App.jsx" accepts all components
   );
 }
 

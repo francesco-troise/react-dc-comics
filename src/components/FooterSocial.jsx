@@ -3,6 +3,7 @@ import twitter from "../assets/img/footer-twitter.png";
 import pinterest from "../assets/img/footer-pinterest.png";
 import periscope from "../assets/img/footer-periscope.png";
 import facebook from "../assets/img/footer-facebook.png";
+//Import of the various images required by the component
 
 export default function FooterSocial() {
   return (
@@ -33,5 +34,6 @@ export default function FooterSocial() {
         </div>
       </div>
     </section>
+    //The various image SRCs are linked to their respective imports
   );
 }

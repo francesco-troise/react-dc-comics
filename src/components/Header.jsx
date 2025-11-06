@@ -1,4 +1,5 @@
 import logo from "../assets/img/dc-logo.png";
+//Importing the logo image
 
 export default function Header() {
   return (
@@ -7,6 +8,7 @@ export default function Header() {
         <div className="container">
           <a className="navbar-brand " href="#">
             <img src={logo} alt="logo" className="logo-navbar" />
+            {/*The SRC of img is contained in the Logo*/}
           </a>
 
           <div className="navbar-nav flex-row gap-4 fw-semibold">
